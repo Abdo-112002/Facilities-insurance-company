@@ -1,0 +1,44 @@
+
+
+
+/* --------------------------------
+        start gallery section
+-------------------------------------*/
+
+.gallery .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+
+.swiper-slide .swiper-zoom-container {
+    display: block;
+}
+.swiper-slide .slid-desc {
+    max-width: 300px;
+    margin: 25px auto 0 auto;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.swiper img {
+   width: 600px;
+   height: 400px;
+}
+
+.swiper .button {
+    color: var(--bgColor);
+}
+
+@media screen and (max-width:800px) {
+    .swiper-slide .slid-desc {
+        margin: -25px auto 0 auto;
+    }
+}
